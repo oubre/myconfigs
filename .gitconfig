@@ -1,0 +1,18 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Stephanie Oubre
+#	email = stephanie.oubre@alchemysystems.com
+[user]
+	name = Stephanie Oubre
+	email = stephanie.oubre@alchemysystems.com
+[color]
+	status = auto
+	branch = auto
+	config = auto
+[core]
+	editor = vim
+[fetch]
+	prune = true
+[pull]
+	rebase = true

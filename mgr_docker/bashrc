@@ -1,4 +1,4 @@
-export PATH=$HOME/github/manager/library/bin:$PATH
+export PATH=/manager/library/bin:$PATH
 set -o vi
 
 rootDir=/manager

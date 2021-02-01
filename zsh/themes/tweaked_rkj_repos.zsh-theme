@@ -35,4 +35,4 @@ function retcode() {}
 # alternate prompt with git & hg └─
 PROMPT=$'%{$fg_bold[blue]%}⨏[%{$fg_bold[cyan]%}%~%{$fg_bold[blue]%}]%{$reset_color%} %{$fg_bold[blue]%}$(mygit)$(hg_prompt_info)⨏%{$reset_color%} '
 PS2=$' \e[0;34m%}%B>%{\e[0m%}%b '
-RPROMPT=$'[%{$fg_bold[magenta]%}%?$(retcode)%{$fg_bold[blue]%}] - %{$fg_bold[blue]%}[%b%{$fg[yellow]%}'%T%b$'%{$fg_bold[blue]%}]'
+RPROMPT=$'[%{$fg_bold[magenta]%}%?$(retcode)%{$fg_bold[blue]%}] - %{$fg_bold[blue]%}[%b%{$fg[yellow]%}'%T%b$'%{$fg_bold[blue]%}]%{$reset_color%}'

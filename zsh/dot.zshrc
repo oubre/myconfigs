@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$HOME/github/manager/library/bin:$HOME/github/manager/docker/scripts:$PATH
 # export PATH=$HOME/github/manager/library/bin:$PATH
 
 # Path to your oh-my-zsh installation.
@@ -9,7 +9,8 @@ export ZSH="/Users/soubre/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="rkj-repos"
+ZSH_THEME="../custom/themes/tweaked_rkj_repos"
+# ZSH_THEME="rkj-repos"
 # ZSH_THEME="random"
 # setting mrtazz had decent git status, had angry red though
 # dpoggi is cute. Less angry.
